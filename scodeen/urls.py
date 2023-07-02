@@ -21,4 +21,5 @@ from courses import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('auto/', views.greet_url),
 ]
